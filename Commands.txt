@@ -1,0 +1,24 @@
+Установка необходимых библиотек:
+
+python -m pip install Django  
+
+
+
+
+Миграции:
+
+python manage.py makemigrations    
+
+python manage.py migrate   
+
+
+Создание админа:
+
+python manage.py createsuperuser   
+
+
+Подгрузка фикстур:
+
+python manage.py loaddata products/fixtures/goods.json   
+
+python manage.py loaddata products/fixtures/categories.json      
